@@ -1,0 +1,96 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  #btnLogin {
+    width: 50%;
+  }
+
+  #btnRegister {
+    width: 50%;
+  }
+}
+
+/* thanh search */
+@media screen and (min-width: 768px) {
+  .round-end {
+    border-top-right-radius: 19px;
+    border-bottom-right-radius: 19px;
+  }
+
+  .round-start {
+    border-top-left-radius: 19px;
+    border-bottom-left-radius: 19px;
+  }
+}
+
+.ul-footer li {
+  padding: 5px 0;
+}
+
+.ul-footer li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.ul-footer li a:hover {
+  color: #9e9e70;
+}
+
+/* dưới màn hình điện thoại */
+@media screen and (max-width: 768px) {
+  .mobile-col-content {
+    width: 100%;
+  }
+  .mobile-col {
+    width: 100%;
+  }
+}
+
+/* trên màn hình ipad, ipad pro, desktop */
+@media screen and (min-width: 768px) {
+  .mobile-col-content {
+    width: 50%;
+  }
+  .mobile-col {
+    width: 25%;
+  }
+}
+
+.course {
+  padding: 1rem 0;
+}
+
+/* điều chỉnh chiều ngang cho login form */
+
+/* iphone 6 đến iphone x 320px ~ 414px */
+@media (min-width: 312px) and (max-width: 414px) {
+  .login-form-content {
+    /* width: 391px; */
+    width: 391px;
+  }
+}
+
+/* ipad */
+@media screen and (min-width: 768px) {
+  .login-form-content {
+    /* width: 391px; */
+    width: 391px;
+  }
+}
+/* ---------------------------------------------- */
