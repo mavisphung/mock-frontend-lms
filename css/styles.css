@@ -53,7 +53,7 @@ p {
 }
 
 .ul-footer li a:hover {
-  color: #9e9e70;
+  color: #0d6efd;
 }
 
 /* dưới màn hình điện thoại */
@@ -86,11 +86,11 @@ p {
 @media (min-width: 312px) and (max-width: 414px) {
   .login-form-content {
     /* width: 391px; */
-    width: 391px;
+    /* width: 391px; */
   }
 
   .profile-form-content {
-    width: 100%;
+    /* width: 100%; */
   }
 }
 
@@ -101,6 +101,11 @@ p {
     width: 391px;
   }
 
+  
+}
+
+/* ipad pro */
+@media screen and (min-width: 1024px) {
   .profile-form-content {
     width: 391px;
   }
@@ -175,4 +180,20 @@ p {
 
 #btn-cancel:hover {
   background-color: #c4c4c4;
+}
+
+
+
+ul li {
+  list-style: none;
+  padding: 0;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+
+ul {
+  padding: 0;
 }

@@ -45,11 +45,6 @@
               </form>
             </li>
           </ul>
-
-          <!-- <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form> -->
           <div class="d-flex">
             <a id="btnLogin" href="login.html" class="btn btn-primary me-1">Login</a>
             <a id="btnRegister" href="register.html" class="btn btn-info">Register</a>
@@ -61,7 +56,7 @@
   <main class="container my-3">
     <div class="d-md-flex">
       <!-- col content -->
-      <aside id="content-col" class="mobile-col-content">
+      <aside id="content-col" class="mobile-col-content pe-md-3">
         <!-- course overview-->
         <div id="course-overview">
           <h3>Course Overview</h3>
@@ -122,17 +117,36 @@
         </div>
       </aside>
       <!-- col trái-->
-      <aside id="left-col" class="mobile-col">
-        <!-- Đây là cột bên trái -->
-        <div class="">
-          <h5>Navigation</h5>
-          ---CONTENT---
+      <aside id="left-col" class="mobile-col pe-md-3">
+        <div class="pb-3">
+          <h3>Navigation</h3>
+          <ul class="list-navigation">
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="user-profile.html">Go to profile</a></li>
+            <li><a href="change-password.html">Change your password</a></li>
+            <li><a href="change-password.html">Courses</a></li>
+          </ul>
+        </div>
+        <div class="pb-3">
+          <h3>Notifications</h3>
+          <h5>Lorem</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis in consectetur amet repudiandae maxime!</p>
+          <h5>Lorem</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis in consectetur amet repudiandae maxime!</p>
+        </div>
+        <div class="pb-3">
+          <h3>Activities</h3>
+          <ul class="list-navigation">
+            <li><a href="index.html">Review quizzes</a></li>
+            <li><a href="user-profile.html"></a></li>
+            <li><a href="change-password.html">Change your password</a></li>
+          </ul>
         </div>
       </aside>
       <!-- col phải-->
       <aside id="right-col" class="mobile-col">
         <!-- đây là cột bên phải -->
-        <h5>Calendar</h5>
+        <h3>Calendar</h3>
         <div class="text-center">
           <table class="table table-bordered table-striped">
             <thead>
