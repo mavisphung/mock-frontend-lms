@@ -4,22 +4,54 @@
 <head>
   <meta charset='utf-8' />
   <link href='css/fullcalendar.css' rel='stylesheet' />
-  <script src='js/fullcalendar.js' defer></script>
-  <script>
-
-    document.addEventListener('DOMContentLoaded', function () {
-      var calendarEl = document.getElementById('calendar');
-      var calendar = new FullCalendar.Calendar(calendarEl, {
-        initialView: 'dayGridMonth'
-      });
-      calendar.render();
-    });
-
-  </script>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- bootstrap js -->
+  <script src="js/popper.min.js" async defer></script>
+  <script src="js/jquery-3.6.0.min.js" async defer></script>
+  <script src="js/bootstrap.bundle.js" async defer></script>
+  <script src="js/scripts.js" async defer></script>
 </head>
 
 <body>
-  <div id='calendar'></div>
+  <div class="dropdown-2">
+    <button id="dropdownMenuBtn" class="btn btn-info dropdown-toggle" 
+     aria-haspopup="true" aria-expanded="true">
+      <i class="fa fa-user"></i> huypcse140675@fpt.edu.vn
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuBtn">
+      <a class="dropdown-item" href="#">Profile</a>
+      <a class="dropdown-item" href="#">Review quizzes</a>
+      <a class="dropdown-item" href="#">View courses</a>
+    </div>
+  </div>
+
+
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+      aria-expanded="false">
+      <i class="fa fa-user"></i> huypcse140675@fpt.edu.vn
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+      <li><a class="dropdown-item" href="#">Profile</a></li>
+      <li><a class="dropdown-item" href="#">Review quizzes</a></li>
+      <li><a class="dropdown-item" href="#">View courses</a></li>
+    </ul>
+  </div>
+
+  <!-- Example single danger button -->
+  <!-- <div class="btn-group dropdown">
+    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+      aria-expanded="false">
+      Action
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+  </div> -->
 </body>
 
 </html>

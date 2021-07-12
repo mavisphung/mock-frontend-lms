@@ -12,19 +12,10 @@
   <link rel="stylesheet" href="css/styles.css">
 
   <!-- bootstrap js -->
-  <script src="js/bootstrap.bundle.js" defer></script>
-  <script src="js/scripts.js" defer></script>
-  <!-- fullcalendar framework-->
-  <script src="js/fullcalendar.js" defer></script>
-  <script defer>
-    document.addEventListener('DOMContentLoaded', function () {
-      var calendarEl = document.getElementById('calendar');
-      var calendar = new FullCalendar.Calendar(calendarEl, {
-        initialView: 'dayGridMonth'
-      });
-      calendar.render();
-    });
-  </script>
+  <script src="js/popper.min.js" async defer></script>
+  <script src="js/jquery-3.6.0.min.js" async defer></script>
+  <script src="js/bootstrap.bundle.js" async defer></script>
+  <script src="js/scripts.js" async defer></script>
   <title>Lms home page</title>
 
 </head>
@@ -95,7 +86,7 @@
             </a>
             <p>You have assignment that need attention</p>
           </div>
-          
+
         </div>
 
         <!-- Enrollment-->
@@ -219,7 +210,7 @@
 
   <!-- popper-->
   <!-- Jquery-->
-  
+
 </body>
 
 </html>
