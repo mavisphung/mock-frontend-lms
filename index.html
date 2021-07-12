@@ -46,13 +46,15 @@
             </li>
           </ul>
           <div class="d-flex">
+            <!-- user profile dropdown-->
             <div class="dropdown pe-2">
               <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 <i class="fa fa-user"></i> huypcse140675@fpt.edu.vn
               </button>
               <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><a class="dropdown-item" href="user-profile.html">Profile</a></li>
+                <li><a class="dropdown-item" href="change-password.html">Change password</a></li>
                 <li><a class="dropdown-item" href="#">Review quizzes</a></li>
                 <li><a class="dropdown-item" href="#">View courses</a></li>
               </ul>
@@ -68,7 +70,7 @@
   <main class="container my-3">
     <div class="d-md-flex">
       <!-- col content -->
-      <aside class="mobile-col-content">
+      <aside id="content-col" class="mobile-col-content">
         <!-- course overview-->
         <div id="course-overview">
           <h3>Course Overview</h3>
@@ -129,7 +131,7 @@
         </div>
       </aside>
       <!-- col trái-->
-      <aside class="mobile-col">
+      <aside id="left-col" class="mobile-col">
         <!-- Đây là cột bên trái -->
         <div class="">
           <h5>Navigation</h5>
@@ -137,7 +139,7 @@
         </div>
       </aside>
       <!-- col phải-->
-      <aside class="mobile-col">
+      <aside id="right-col" class="mobile-col">
         <!-- đây là cột bên phải -->
         <h5>Calendar</h5>
         <div class="text-center">

@@ -88,12 +88,20 @@ p {
     /* width: 391px; */
     width: 391px;
   }
+
+  .profile-form-content {
+    width: 100%;
+  }
 }
 
 /* ipad */
 @media screen and (min-width: 768px) {
   .login-form-content {
     /* width: 391px; */
+    width: 391px;
+  }
+
+  .profile-form-content {
     width: 391px;
   }
 }
@@ -152,3 +160,19 @@ p {
   background-color: #3e8e41;
 }
 /* -------------------------------------------------- */
+
+#content-col {
+  order: 2;
+}
+
+#left-col {
+  order: 1;
+}
+
+#right-col {
+  order: 3;
+}
+
+#btn-cancel:hover {
+  background-color: #c4c4c4;
+}
